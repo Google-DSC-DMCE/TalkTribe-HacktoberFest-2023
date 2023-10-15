@@ -43,12 +43,10 @@ pip install -r requirements.txt
 If Problems occur, manually install the required packages using pip.
 
 ## 4.Running the Server
-4.1.Set Up the Database:
-
-If you're using a database other than SQLite, configure the database settings in your project, create the database, and apply migrations.
-
-For SQLite, start with an empty database. If you have an existing database or data to share, provide it separately.
-
+4.1.Making Migrations:
+```bash
+python manage.py migrate
+```
 4.2.Run the Django Development Server:
 
 Start the Django development server using the following command:
